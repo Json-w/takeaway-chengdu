@@ -13,7 +13,7 @@ class HomePage extends Component {
       <div>
         <div>HomePage!</div>
         <Button />
-        <Card name="KFC" logo="http://img.sj33.cn/uploads/allimg/201402/7-140206204500561.png" />
+        <Card name="KFC" logo="http://img.sj33.cn/uploads/allimg/201402/7-140206204500561.png" rate="3" />
       </div>
     )
   }

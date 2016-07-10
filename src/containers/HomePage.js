@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 
 import Button from '../components/Button'
+import Card from '../components/Card'
 
 class HomePage extends Component {
   static propTypes = {
@@ -12,6 +13,7 @@ class HomePage extends Component {
       <div>
         <div>HomePage!</div>
         <Button />
+        <Card name="KFC" logo="http://img.sj33.cn/uploads/allimg/201402/7-140206204500561.png" />
       </div>
     )
   }

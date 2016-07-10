@@ -19,7 +19,7 @@ export default (store = {}, routes = {}, reducers = {}) => {
   )
 
   if (process.env.NODE_ENV === 'development') {
-    const devTool = require('./utils/openDevTool')
-    devTool.default(store)
+    // const devTool = require('./utils/openDevTool')
+    // devTool.default(store)
   }
 }

@@ -1,5 +1,7 @@
 .card{
+  display: inline-block;
   width: 200px;
+  margin: 15px;
   background-color: green;
 
   h1{
@@ -10,4 +12,9 @@
   .rate{
     margin-left: 15px;
   }
+}
+
+.cardList{
+  width: 70%;
+  margin: auto;
 }
